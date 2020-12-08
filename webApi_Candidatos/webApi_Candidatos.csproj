@@ -162,6 +162,7 @@
     </Compile>
     <Compile Include="Models\IProdutoRepositorio.cs" />
     <Compile Include="Models\Produto.cs" />
+    <Compile Include="Models\ProdutoRepositorio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
