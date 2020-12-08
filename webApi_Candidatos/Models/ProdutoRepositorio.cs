@@ -14,7 +14,7 @@ namespace webApi_Candidatos.Models
         {
             Add(new Produto { Nome = "Luana Damasco", Email = "Luana@gmail", Idade = "29", Urllinkedin = "www.linkedin.com.br", Categoria = "C#" });
 
-            Add(new Produto { Nome = "Bruno Couto", Email = "Bruno@gmail", Idade = "30", Urllinkedin = "www.linkedin.com.br", Categoria = "  Javascript " });
+            Add(new Produto { Nome = "Bruno Couto", Email = "Bruno@gmail", Idade = "30", Urllinkedin = "www.linkedin.com.br", Categoria = "  Javascript  " });
 
             Add(new Produto { Nome = "Flavia bernades", Email = "Flavia@gmail", Idade = "31", Urllinkedin = "www.linkedin.com.br", Categoria = "Nodejs " });
 
