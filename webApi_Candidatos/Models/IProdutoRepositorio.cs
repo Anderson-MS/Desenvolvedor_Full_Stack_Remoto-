@@ -12,5 +12,7 @@ namespace webApi_Candidatos.Models
         Produto Add(Produto item);
         void Remove(int id);
         bool Update(Produto item);
+
+
     }
 }

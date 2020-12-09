@@ -13,5 +13,7 @@ namespace webApi_Candidatos.Models
         public string Idade { get; set; }
         public string Urllinkedin { get; set; }
         public string Categoria { get; set; }
+
+        
     }
 }

@@ -28,7 +28,7 @@ namespace webApi_Candidatos.Models
 
             Add(new Produto { Nome = "Joao francisco", Email = "Joao@gmail", Idade = "28", Urllinkedin = "www.linkedin.com.br", Categoria = " PHP " });
 
-            Add(new Produto { Nome = "Bruno Couto", Email = "Bruno@gmail", Idade = "30", Urllinkedin = "www.linkedin.com.br", Categoria = " Laravel" });
+            Add(new Produto { Nome = "Bruno Couto", Email = "Bruno@gmail", Idade = "30", Urllinkedin = "www.linkedin.com.br", Categoria = " Laravel"  });
         }
 
         public Produto Add(Produto item)
@@ -46,6 +46,8 @@ namespace webApi_Candidatos.Models
         {
             return produtos.Find(p => p.Id == id);
         }
+
+
 
         public IEnumerable<Produto> GetAll()
         {
@@ -74,5 +76,7 @@ namespace webApi_Candidatos.Models
             produtos.Add(item);
             return true;
         }
+      
+
     }
 }

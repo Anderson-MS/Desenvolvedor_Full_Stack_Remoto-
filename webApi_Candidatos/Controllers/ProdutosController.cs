@@ -42,7 +42,7 @@ namespace webApi_Candidatos.Controllers
             response.Headers.Location = new Uri(uri);
             return response;
         }
-
+       
         public void PutProduto(int id, Produto produto)
         {
             produto.Id = id;
@@ -62,7 +62,9 @@ namespace webApi_Candidatos.Controllers
             }
 
             repositorio.Remove(id);
-        }
+        }      
+
+
     }
 }
 
